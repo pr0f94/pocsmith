@@ -1,19 +1,19 @@
 # pocsmith
 
-`pocsmith` generates modular Python exploit templates from alias flags or YAML profiles.
+`pocsmith` generates modular Python proof-of-concept templates from alias flags or YAML profiles.
 
 ## Install
 
 From GitHub with `pipx`:
 
 ```bash
-pipx install git+https://github.com/<you>/pocsmith.git
+pipx install git+https://github.com/pr0f94/pocsmith.git
 ```
 
 For local development:
 
 ```bash
-git clone https://github.com/<you>/pocsmith.git
+git clone https://github.com/pr0f94/pocsmith.git
 cd pocsmith
 python3 -m pip install -e .
 ```
@@ -108,3 +108,7 @@ Install only what the generated template imports.
 ## Color
 
 `pocsmith` uses colored help and status output when stdout is an interactive terminal. Use `--no-color` or `NO_COLOR=1` to disable color, or `FORCE_COLOR=1` to force it.
+
+## License
+
+MIT

@@ -1,9 +1,11 @@
 [project]
 name = "pocsmith"
 version = "0.1.0"
-description = "Modular OSWE-style Python exploit template generator"
+description = "Modular Python proof-of-concept template generator for web security testing"
 requires-python = ">=3.9"
 dependencies = []
+license = "MIT"
+readme = "README.md"
 
 [project.scripts]
 pocsmith = "pocsmith.cli:main"
