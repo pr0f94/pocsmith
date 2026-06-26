@@ -1,0 +1,75 @@
+web-basic:
+  - session
+
+web-auth:
+  - session
+  - auth-form
+  - auth-json
+  - register-json
+
+web-token:
+  - session
+  - auth-form
+  - token-extractor
+  - headers
+
+web-csrf:
+  - session
+  - html-parser
+  - csrf
+
+web-callback:
+  - session
+  - flask
+  - cookie
+  - proof
+
+web-callback-full:
+  - session
+  - flask
+  - cookie
+  - local
+  - proof
+
+web-rce:
+  - session
+  - flask
+  - proof
+  - netcat
+
+web-upload:
+  - session
+  - auth-form
+  - file-upload
+
+web-zip-upload:
+  - session
+  - zip-builder
+  - file-upload
+
+websocket-async:
+  - session
+  - websocket-async
+
+full:
+  - session
+  - multi-session
+  - flask
+  - cookie
+  - local
+  - proof
+  - netcat
+  - auth-form
+  - auth-json
+  - register-json
+  - headers
+  - token-extractor
+  - html-parser
+  - csrf
+  - regex-extract
+  - base64
+  - file-upload
+  - zip-builder
+  - websocket
+  - websocket-async
+  - bruteforce-loop
